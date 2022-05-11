@@ -6,6 +6,14 @@
     padding-top: 20px;
   }
 }
+
+// .reviews-slick {
+//   background-size: cover;
+//   background-position: 50%;
+//   background-repeat: no-repeat;
+//   padding-top: 100px;
+// }
+
 .reviews__photo {
   display: flex;
   align-items: center;
@@ -56,8 +64,10 @@
   text-align: center;
   margin-bottom: 16px;
 }
-.reviews__icon {
+.reviews__quote {
   fill: #e1e1e1;
+  margin-right: -13px;
+  margin-bottom: -7px;
   @media screen and (max-width: 1199px) {
     width: 60px;
   }
@@ -87,10 +97,6 @@
   background-image: linear-gradient(to right, #e1e1e1, #e1e1e1);
 }
 
-.reviews__icon {
-  margin-right: -13px;
-  margin-bottom: -7px;
-}
 .reviews__icons-small {
   display: inline-flex;
   margin-top: 16px;
